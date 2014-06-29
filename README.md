@@ -21,3 +21,4 @@ Frontnode 内部技术分享Demos
 # PPTs
 
 1. [Gulp介绍](http://slides.com/frontnode/gulp--2/embed?style=dark)
+2. [数据可视化 Data Visualization](http://slides.com/frontnode/datavisualization/embed?style=dark)
