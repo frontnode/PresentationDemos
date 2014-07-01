@@ -9,12 +9,28 @@ var Constant = {
     REPO: "PresentationDemos"
 };
 
+var nameMap = {
+    'CraryPrimitiveMan': 'Harry',
+    'vincenthou': 'Vincent',
+    'BigYu': 'Devin',
+    'GoodLuckBamboo': 'Leo',
+    'zhengjinxin': 'Tony'
+}
+
+var officeEmails = [
+    'tonyzheng@augmentum.com.cn',
+    'harrysun@augmentum.com.cn',
+    'leozhang@augmentum.com.cn',
+    'vincenthou@augmentum.com.cn',
+    'devinjin@augmentum.com.cn',
+];
+
 // create reusable transport method (opens pool of SMTP connections)
 var smtpTransport = nodemailer.createTransport("SMTP",{
-    host: 'smtp.126.com',
+    host: 'mail2.augmentum.com.cn',
     auth: {
-        user: "frontnode@126.com",
-        pass: "notabc123_"
+        user: "vincenthou@augmentum.com.cn",
+        pass: "111111"
     }
 });
 
@@ -29,7 +45,7 @@ var github = new GitHubApi({
 });
 github.authenticate({
     type: "oauth",
-    token: '3414bf79549a120d59c9eb3a3ab71893e22c6d33'
+    token: 'a3c65f5cb552a03f84360881281c6ad79fd68ae6'
 });
 
 function getLatestSession(sessions) {
@@ -43,9 +59,9 @@ function sendNotificationMail(session) {
     //
     //avatar_url
     var mailOptions = {
-        from: "Frontnode <frontnode@126.com>", // sender address
-        to: "hnkfhjj@126.com", // list of receivers
-        subject: session.user.login + " 演讲《" + session.title "》", // Subject line
+        from: "Frontnode <vincenthou@augmentum.com.cn>", // sender address
+        to: officeEmails.join(','), // list of receivers
+        subject: '[Wemarketing][session] ' + nameMap[session.user.login] + " 分享 " + session.title, // Subject line
         html: marked(session.body) // html body
     };
     // send mail with defined transport object
