@@ -39,3 +39,7 @@ q()
 
 [官方网站](http://www.r-project.org/)
 [中文文档](http://www.biosino.org/R/R-doc/)
+
+# 补充资料
+[Selections 如何工作的](http://bost.ocks.org/mike/selection/)
+[R与matlab的异同](http://blog.sina.com.cn/s/blog_5f234d470101gks0.html)
