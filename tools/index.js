@@ -23,6 +23,8 @@ var officeEmails = [
     'leozhang@augmentum.com.cn',
     'vincenthou@augmentum.com.cn',
     'devinjin@augmentum.com.cn',
+    'sarazhang@augmentum.com.cn',
+    'hankliu@augmentum.com.cn',
 ];
 
 // create reusable transport method (opens pool of SMTP connections)
@@ -61,8 +63,9 @@ function sendNotificationMail(session) {
     var mailOptions = {
         from: "Frontnode <vincenthou@augmentum.com.cn>", // sender address
         to: officeEmails.join(','), // list of receivers
-        subject: '[Wemarketing][session] ' + nameMap[session.user.login] + " 分享 " + session.title, // Subject line
-        html: marked(session.body) // html body
+        cc: 'vincentdong@augmentum.com.cn',
+        subject: '[Wemarketing][session] ' + nameMap[session.user.login] + " share topic about " + session.title, // Subject line
+        html: marked(session.body) + '<h2>Time: 4:00 pm</h2><h2>Room: 302 building 28</h2>' // html body
     };
     // send mail with defined transport object
     smtpTransport.sendMail(mailOptions, function(error, response){
