@@ -3,7 +3,10 @@ PresentationDemos
 
 Frontnode 内部技术分享Demos
 
+项目主页：http://frontnode.github.io/PresentationDemos
+
 # 说明
+* Fork 当前项目到个人的项目主页，自行提交代码到个人项目中，通过发送pull request提交代码到项目主页
 * Demo目录的创建是可选的，根据主题内容自定
 * 每个演讲主题对应一条issues，issus和主题名称对应
 * issue名称格式，**英文首单词首字母大写，单词用空格分割，中文不需要空格**
@@ -23,3 +26,4 @@ Frontnode 内部技术分享Demos
 1. [Gulp介绍](http://slides.com/frontnode/gulp-get-started/embed?style=dark)
 2. [数据可视化 Data Visualization](http://slides.com/frontnode/datavisualization/embed?style=dark)
 3. [Introduction to Data Mining](http://slides.com/frontnode/an-introduction-for/embed?style=dark)
+4. [Digest Yii](http://slides.com/frontnode/yii/embed?style=dark)
