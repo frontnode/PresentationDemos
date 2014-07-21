@@ -1,0 +1,2516 @@
+2014/07/14 13:45:15 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 13:45:15 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 13:45:15 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 13:45:15 [trace] [system.web.filters.CFilterChain] Running filter PostController.filteraccessControl()
+in /var/www/demo/index.php (12)
+2014/07/14 13:45:15 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/index.php (12)
+2014/07/14 13:45:15 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/index.php (12)
+2014/07/14 13:45:15 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 13:45:15 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 13:45:15 [trace] [system.db.ar.CActiveRecord] Post.count()
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 13:45:15 [trace] [system.CModule] Loading "db" application component
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 13:45:15 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 13:45:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `post`
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 13:45:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `post`
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 13:45:15 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `post` `t`
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 13:45:15 [trace] [system.db.ar.CActiveRecord] Post.findAll()
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 13:45:15 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `post` `t` LIMIT 10
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 13:45:15 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 13:45:15 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 13:45:15 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 16:33:30 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:33:30 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:33:30 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (13)
+2014/07/14 16:33:31 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (32)
+in /var/www/demo/index.php (13)
+2014/07/14 16:33:31 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (32)
+in /var/www/demo/index.php (13)
+2014/07/14 16:33:31 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (32)
+2014/07/14 16:33:31 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (32)
+2014/07/14 16:33:31 [trace] [system.CModule] Loading "securityManager" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (32)
+2014/07/14 16:33:31 [trace] [system.CModule] Loading "statePersister" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (32)
+2014/07/14 16:33:31 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (32)
+2014/07/14 16:33:31 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (32)
+in /var/www/demo/index.php (13)
+2014/07/14 16:33:33 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:33:33 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:33:33 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (13)
+2014/07/14 16:33:33 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:33:33 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:33:33 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:33:33 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:33:33 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:33:33 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:37:09 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:37:09 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:37:09 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (13)
+2014/07/14 16:37:09 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:37:09 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:37:09 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:37:09 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:37:09 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:37:09 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:37:35 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:37:35 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:37:35 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (13)
+2014/07/14 16:37:35 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:37:35 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:37:35 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:37:35 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:37:35 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:37:35 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:37:40 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:37:40 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:37:40 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (13)
+2014/07/14 16:37:40 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:37:40 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:37:40 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:37:40 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:37:40 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:37:40 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:37:44 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:37:44 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:37:44 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (13)
+2014/07/14 16:37:44 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:37:44 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:37:44 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:37:44 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:37:44 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:37:44 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:37:45 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:37:45 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:37:45 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (13)
+2014/07/14 16:37:45 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:37:45 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:37:45 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:37:45 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:37:45 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:37:45 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:37:46 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:37:46 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:37:46 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (13)
+2014/07/14 16:37:46 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:37:46 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:37:46 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:37:46 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:37:46 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:37:46 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:37:47 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:37:47 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:37:47 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (13)
+2014/07/14 16:37:47 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:37:47 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:37:47 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:37:47 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:37:47 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:37:47 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:37:49 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:37:49 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:37:49 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (13)
+2014/07/14 16:37:49 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:37:49 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:37:49 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:37:49 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:37:49 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:37:49 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:24 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:38:24 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:38:24 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:24 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:24 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:24 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:24 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:24 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:24 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:24 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:38:24 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:38:24 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:24 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:24 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:24 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:24 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:24 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:24 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:25 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:38:25 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:38:25 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:25 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:25 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:25 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:25 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:25 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:25 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:25 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:38:25 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:38:25 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:25 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:25 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:25 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:25 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:25 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:25 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:37 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:38:37 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:38:37 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:37 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:37 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:37 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:37 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:37 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:37 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:39 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:38:39 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:38:39 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:39 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:39 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:39 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:39 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:39 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:39 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:40 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:38:40 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:38:40 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:40 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:40 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:40 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:40 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:40 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:40 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:40 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:38:40 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:38:40 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:40 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:40 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:40 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:40 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:40 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:40 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:40 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:38:40 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:38:40 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:40 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:40 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:40 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:40 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:40 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:40 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:40 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:38:40 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:38:40 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:40 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:40 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:40 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:40 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:40 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:40 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:41 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:38:41 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:38:41 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:41 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:41 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:41 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:41 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:41 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:41 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:41 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:38:41 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:38:41 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:41 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:41 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:41 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:41 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:41 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:41 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:42 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:38:42 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:38:42 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:42 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:42 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:42 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:42 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:42 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:42 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:42 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:38:42 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:38:42 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:42 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:42 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:38:42 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:42 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:42 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:38:42 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:39:17 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:39:17 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:39:17 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (13)
+2014/07/14 16:39:17 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:39:17 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:39:17 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:39:17 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:39:17 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:39:17 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:39:18 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:39:18 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:39:18 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (13)
+2014/07/14 16:39:18 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:39:18 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:39:18 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:39:18 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:39:18 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:39:18 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:41:40 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:41:40 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:41:40 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (13)
+2014/07/14 16:41:40 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (32)
+in /var/www/demo/index.php (13)
+2014/07/14 16:41:40 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (32)
+in /var/www/demo/index.php (13)
+2014/07/14 16:41:40 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (32)
+2014/07/14 16:41:40 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (32)
+2014/07/14 16:41:40 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (32)
+2014/07/14 16:41:40 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (32)
+in /var/www/demo/index.php (13)
+2014/07/14 16:41:41 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:41:41 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:41:41 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (13)
+2014/07/14 16:41:41 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:41:41 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:41:41 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:41:41 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:41:41 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:41:41 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:41:43 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:41:43 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:41:43 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (13)
+2014/07/14 16:41:43 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:41:43 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:41:43 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:41:43 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:41:43 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:41:43 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:41:44 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:41:44 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:41:44 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (13)
+2014/07/14 16:41:44 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:41:44 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:41:44 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:41:44 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:41:44 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:41:44 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:41:45 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:41:45 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:41:45 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (13)
+2014/07/14 16:41:45 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:41:45 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:41:45 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:41:45 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:41:45 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:41:45 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (13)
+2014/07/14 16:51:49 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:51:49 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:51:49 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:51:49 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (72)
+in /var/www/demo/index.php (12)
+2014/07/14 16:51:49 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/site/contact.php (14)
+in /var/www/demo/protected/controllers/SiteController.php (72)
+in /var/www/demo/index.php (12)
+2014/07/14 16:51:49 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/site/contact.php (14)
+in /var/www/demo/protected/controllers/SiteController.php (72)
+in /var/www/demo/index.php (12)
+2014/07/14 16:51:49 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/site/contact.php (34)
+in /var/www/demo/protected/controllers/SiteController.php (72)
+in /var/www/demo/index.php (12)
+2014/07/14 16:51:49 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/site/contact.php (38)
+in /var/www/demo/protected/controllers/SiteController.php (72)
+in /var/www/demo/index.php (12)
+2014/07/14 16:51:49 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/views/site/contact.php (68)
+in /var/www/demo/protected/controllers/SiteController.php (72)
+in /var/www/demo/index.php (12)
+2014/07/14 16:51:49 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (72)
+in /var/www/demo/index.php (12)
+2014/07/14 16:51:50 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:51:50 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:51:50 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:51:50 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:51:50 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:51:50 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:51:50 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:51:50 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (12)
+2014/07/14 16:51:50 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (12)
+2014/07/14 16:51:50 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:51:50 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:51:50 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:51:50 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (12)
+2014/07/14 16:51:51 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:51:51 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:51:51 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:51:51 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (12)
+2014/07/14 16:51:51 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (12)
+2014/07/14 16:51:51 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:51:51 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:51:51 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (121)
+2014/07/14 16:51:51 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (121)
+in /var/www/demo/index.php (12)
+2014/07/14 16:52:50 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:52:50 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:52:50 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:52:50 [trace] [system.base.CModule] Loading "gii" module
+in /var/www/demo/index.php (12)
+2014/07/14 16:52:50 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:52:50 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:52:50 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:52:50 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:52:50 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:52:50 [trace] [system.base.CModule] Loading "gii" module
+in /var/www/demo/index.php (12)
+2014/07/14 16:52:50 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:52:50 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:52:50 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:52:50 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:52:50 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:52:50 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:52:50 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:53:15 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:53:15 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:53:15 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:53:15 [trace] [system.base.CModule] Loading "gii" module
+in /var/www/demo/index.php (12)
+2014/07/14 16:53:15 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:53:15 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:53:15 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:53:15 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:53:15 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:53:15 [trace] [system.base.CModule] Loading "gii" module
+in /var/www/demo/index.php (12)
+2014/07/14 16:53:15 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:53:15 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:53:15 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:53:15 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:53:15 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:53:15 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:53:15 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:53:36 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:53:36 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:53:36 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:53:36 [trace] [system.base.CModule] Loading "gii" module
+in /var/www/demo/index.php (12)
+2014/07/14 16:53:36 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:53:36 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:53:36 [trace] [system.CModule] Loading "db" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:53:36 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/demo/index.php (12)
+2014/07/14 16:53:37 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:53:37 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:53:37 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:53:37 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in /var/www/demo/index.php (12)
+2014/07/14 16:53:37 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `post`
+in /var/www/demo/index.php (12)
+2014/07/14 16:53:37 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `post`
+in /var/www/demo/index.php (12)
+2014/07/14 16:53:37 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `user`
+in /var/www/demo/index.php (12)
+2014/07/14 16:53:37 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in /var/www/demo/index.php (12)
+2014/07/14 16:53:37 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:53:37 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:17 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:17 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:17 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:17 [trace] [system.base.CModule] Loading "gii" module
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:17 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:17 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:17 [trace] [system.CModule] Loading "db" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:17 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `post`
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `post`
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `user`
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:17 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:17 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:17 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:17 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:17 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:24 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:24 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:24 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:24 [trace] [system.base.CModule] Loading "gii" module
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:24 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:24 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:24 [trace] [system.CModule] Loading "db" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:24 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `post`
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `post`
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `user`
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:24 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:24 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:24 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:24 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:24 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:57 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:57 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:57 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:57 [trace] [system.base.CModule] Loading "gii" module
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:57 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:57 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:57 [trace] [system.CModule] Loading "db" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:57 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:57 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:57 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:57 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:57 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:54:57 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:55:18 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:55:18 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:55:18 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:55:18 [trace] [system.base.CModule] Loading "gii" module
+in /var/www/demo/index.php (12)
+2014/07/14 16:55:18 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:55:18 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:55:18 [trace] [system.CModule] Loading "db" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:55:18 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/demo/index.php (12)
+2014/07/14 16:55:18 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `post`
+in /var/www/demo/index.php (12)
+2014/07/14 16:55:18 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `post`
+in /var/www/demo/index.php (12)
+2014/07/14 16:55:18 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:55:18 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:55:18 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:55:18 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:55:18 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:55:25 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:55:25 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:55:25 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:55:25 [trace] [system.base.CModule] Loading "gii" module
+in /var/www/demo/index.php (12)
+2014/07/14 16:55:25 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:55:25 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:55:25 [trace] [system.CModule] Loading "db" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:55:25 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/demo/index.php (12)
+2014/07/14 16:55:25 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `post`
+in /var/www/demo/index.php (12)
+2014/07/14 16:55:25 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `post`
+in /var/www/demo/index.php (12)
+2014/07/14 16:55:25 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:55:25 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:55:25 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:55:25 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:55:25 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:16 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:16 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:16 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:16 [trace] [system.web.filters.CFilterChain] Running filter PostController.filteraccessControl()
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:16 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:16 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:16 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:16 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:16 [trace] [system.db.ar.CActiveRecord] Post.count()
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:16 [trace] [system.CModule] Loading "db" application component
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:16 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:16 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `post`
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:16 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `post`
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:16 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `post` `t`
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:16 [trace] [system.db.ar.CActiveRecord] Post.findAll()
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:16 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `post` `t` LIMIT 10
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:16 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:16 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:16 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:17 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:17 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:17 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:17 [trace] [system.web.filters.CFilterChain] Running filter PostController.filteraccessControl()
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:17 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:17 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:17 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:17 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:17 [trace] [system.db.ar.CActiveRecord] Post.count()
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:17 [trace] [system.CModule] Loading "db" application component
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:17 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `post`
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `post`
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `post` `t`
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:17 [trace] [system.db.ar.CActiveRecord] Post.findAll()
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `post` `t` LIMIT 10
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:17 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:17 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:17 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:36 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:36 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:36 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:36 [trace] [system.web.filters.CFilterChain] Running filter PostController.filteraccessControl()
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:36 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:36 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:36 [trace] [system.CModule] Loading "db" application component
+in /var/www/demo/protected/controllers/PostController.php (65)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:36 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/demo/protected/controllers/PostController.php (65)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:36 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `post`
+in /var/www/demo/protected/controllers/PostController.php (65)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:36 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `post`
+in /var/www/demo/protected/controllers/PostController.php (65)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:36 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/PostController.php (79)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:36 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/post/_form.php (16)
+in /var/www/demo/protected/views/post/create.php (18)
+in /var/www/demo/protected/controllers/PostController.php (79)
+2014/07/14 16:56:36 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/views/post/_form.php (50)
+in /var/www/demo/protected/views/post/create.php (18)
+in /var/www/demo/protected/controllers/PostController.php (79)
+2014/07/14 16:56:36 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (44)
+in /var/www/demo/protected/views/layouts/column2.php (22)
+in /var/www/demo/protected/controllers/PostController.php (79)
+2014/07/14 16:56:51 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:51 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:51 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:51 [trace] [system.web.filters.CFilterChain] Running filter PostController.filteraccessControl()
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:51 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:51 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:51 [trace] [system.CModule] Loading "db" application component
+in /var/www/demo/protected/controllers/PostController.php (65)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:51 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/demo/protected/controllers/PostController.php (65)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `post`
+in /var/www/demo/protected/controllers/PostController.php (65)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `post`
+in /var/www/demo/protected/controllers/PostController.php (65)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:51 [trace] [system.db.ar.CActiveRecord] Post.insert()
+in /var/www/demo/protected/controllers/PostController.php (73)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:51 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `post` (`author`, `title`, `content`, `create_time`) VALUES (:yp0, :yp1, :yp2, :yp3)
+in /var/www/demo/protected/controllers/PostController.php (73)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:51 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:51 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:51 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:51 [trace] [system.web.filters.CFilterChain] Running filter PostController.filteraccessControl()
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:51 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:51 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:51 [trace] [system.db.ar.CActiveRecord] Post.findByPk()
+in /var/www/demo/protected/controllers/PostController.php (155)
+in /var/www/demo/protected/controllers/PostController.php (55)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:51 [trace] [system.CModule] Loading "db" application component
+in /var/www/demo/protected/controllers/PostController.php (155)
+in /var/www/demo/protected/controllers/PostController.php (55)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:51 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/demo/protected/controllers/PostController.php (155)
+in /var/www/demo/protected/controllers/PostController.php (55)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `post`
+in /var/www/demo/protected/controllers/PostController.php (155)
+in /var/www/demo/protected/controllers/PostController.php (55)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `post`
+in /var/www/demo/protected/controllers/PostController.php (155)
+in /var/www/demo/protected/controllers/PostController.php (55)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:51 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `post` `t` WHERE `t`.`id`=9 LIMIT 1
+in /var/www/demo/protected/controllers/PostController.php (155)
+in /var/www/demo/protected/controllers/PostController.php (55)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:51 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/PostController.php (56)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:51 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/post/view.php (30)
+in /var/www/demo/protected/controllers/PostController.php (56)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:51 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/post/view.php (30)
+in /var/www/demo/protected/controllers/PostController.php (56)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:51 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/demo/protected/views/post/view.php (30)
+in /var/www/demo/protected/controllers/PostController.php (56)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:51 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/views/post/view.php (30)
+in /var/www/demo/protected/controllers/PostController.php (56)
+in /var/www/demo/index.php (12)
+2014/07/14 16:56:51 [trace] [system.CModule] Loading "format" application component
+in /var/www/demo/protected/views/post/view.php (30)
+in /var/www/demo/protected/controllers/PostController.php (56)
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:03 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:03 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:03 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:03 [trace] [system.web.filters.CFilterChain] Running filter PostController.filteraccessControl()
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:03 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:03 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:03 [trace] [system.db.ar.CActiveRecord] Post.findByPk()
+in /var/www/demo/protected/controllers/PostController.php (155)
+in /var/www/demo/protected/controllers/PostController.php (89)
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:03 [trace] [system.CModule] Loading "db" application component
+in /var/www/demo/protected/controllers/PostController.php (155)
+in /var/www/demo/protected/controllers/PostController.php (89)
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:03 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/demo/protected/controllers/PostController.php (155)
+in /var/www/demo/protected/controllers/PostController.php (89)
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `post`
+in /var/www/demo/protected/controllers/PostController.php (155)
+in /var/www/demo/protected/controllers/PostController.php (89)
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `post`
+in /var/www/demo/protected/controllers/PostController.php (155)
+in /var/www/demo/protected/controllers/PostController.php (89)
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:03 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `post` `t` WHERE `t`.`id`=9 LIMIT 1
+in /var/www/demo/protected/controllers/PostController.php (155)
+in /var/www/demo/protected/controllers/PostController.php (89)
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:03 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/PostController.php (103)
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:03 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/post/_form.php (16)
+in /var/www/demo/protected/views/post/update.php (21)
+in /var/www/demo/protected/controllers/PostController.php (103)
+2014/07/14 16:57:03 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/views/post/_form.php (50)
+in /var/www/demo/protected/views/post/update.php (21)
+in /var/www/demo/protected/controllers/PostController.php (103)
+2014/07/14 16:57:03 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (44)
+in /var/www/demo/protected/views/layouts/column2.php (22)
+in /var/www/demo/protected/controllers/PostController.php (103)
+2014/07/14 16:57:06 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:06 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:06 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:06 [trace] [system.web.filters.CFilterChain] Running filter PostController.filteraccessControl()
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:06 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:06 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:06 [trace] [system.db.ar.CActiveRecord] Post.findByPk()
+in /var/www/demo/protected/controllers/PostController.php (155)
+in /var/www/demo/protected/controllers/PostController.php (89)
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:06 [trace] [system.CModule] Loading "db" application component
+in /var/www/demo/protected/controllers/PostController.php (155)
+in /var/www/demo/protected/controllers/PostController.php (89)
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:06 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/demo/protected/controllers/PostController.php (155)
+in /var/www/demo/protected/controllers/PostController.php (89)
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:06 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `post`
+in /var/www/demo/protected/controllers/PostController.php (155)
+in /var/www/demo/protected/controllers/PostController.php (89)
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:06 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `post`
+in /var/www/demo/protected/controllers/PostController.php (155)
+in /var/www/demo/protected/controllers/PostController.php (89)
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:06 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `post` `t` WHERE `t`.`id`=9 LIMIT 1
+in /var/www/demo/protected/controllers/PostController.php (155)
+in /var/www/demo/protected/controllers/PostController.php (89)
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:06 [trace] [system.db.ar.CActiveRecord] Post.update()
+in /var/www/demo/protected/controllers/PostController.php (97)
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:06 [trace] [system.db.ar.CActiveRecord] Post.updateByPk()
+in /var/www/demo/protected/controllers/PostController.php (97)
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:06 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `post` SET `id`=:yp0, `author`=:yp1, `title`=:yp2, `content`=:yp3, `create_time`=:yp4 WHERE `post`.`id`=9
+in /var/www/demo/protected/controllers/PostController.php (97)
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:07 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:07 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:07 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:07 [trace] [system.web.filters.CFilterChain] Running filter PostController.filteraccessControl()
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:07 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:07 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:07 [trace] [system.db.ar.CActiveRecord] Post.findByPk()
+in /var/www/demo/protected/controllers/PostController.php (155)
+in /var/www/demo/protected/controllers/PostController.php (55)
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:07 [trace] [system.CModule] Loading "db" application component
+in /var/www/demo/protected/controllers/PostController.php (155)
+in /var/www/demo/protected/controllers/PostController.php (55)
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:07 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/demo/protected/controllers/PostController.php (155)
+in /var/www/demo/protected/controllers/PostController.php (55)
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `post`
+in /var/www/demo/protected/controllers/PostController.php (155)
+in /var/www/demo/protected/controllers/PostController.php (55)
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `post`
+in /var/www/demo/protected/controllers/PostController.php (155)
+in /var/www/demo/protected/controllers/PostController.php (55)
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `post` `t` WHERE `t`.`id`=9 LIMIT 1
+in /var/www/demo/protected/controllers/PostController.php (155)
+in /var/www/demo/protected/controllers/PostController.php (55)
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:07 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/PostController.php (56)
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:07 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/post/view.php (30)
+in /var/www/demo/protected/controllers/PostController.php (56)
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:07 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/post/view.php (30)
+in /var/www/demo/protected/controllers/PostController.php (56)
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:07 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/demo/protected/views/post/view.php (30)
+in /var/www/demo/protected/controllers/PostController.php (56)
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:07 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/views/post/view.php (30)
+in /var/www/demo/protected/controllers/PostController.php (56)
+in /var/www/demo/index.php (12)
+2014/07/14 16:57:07 [trace] [system.CModule] Loading "format" application component
+in /var/www/demo/protected/views/post/view.php (30)
+in /var/www/demo/protected/controllers/PostController.php (56)
+in /var/www/demo/index.php (12)
+2014/07/14 17:00:53 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:00:53 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:00:53 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:00:53 [trace] [system.CModule] Loading "db" application component
+in /var/www/demo/protected/controllers/SiteController.php (122)
+in /var/www/demo/index.php (12)
+2014/07/14 17:00:53 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/demo/protected/controllers/SiteController.php (122)
+in /var/www/demo/index.php (12)
+2014/07/14 17:00:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `post`
+in /var/www/demo/protected/controllers/SiteController.php (122)
+in /var/www/demo/index.php (12)
+2014/07/14 17:00:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `post`
+in /var/www/demo/protected/controllers/SiteController.php (122)
+in /var/www/demo/index.php (12)
+2014/07/14 17:00:53 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/controllers/SiteController.php (125)
+in /var/www/demo/index.php (12)
+2014/07/14 17:01:07 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:01:07 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:01:07 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:01:07 [trace] [system.CModule] Loading "db" application component
+in /var/www/demo/protected/controllers/SiteController.php (122)
+in /var/www/demo/index.php (12)
+2014/07/14 17:01:07 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/demo/protected/controllers/SiteController.php (122)
+in /var/www/demo/index.php (12)
+2014/07/14 17:01:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `post`
+in /var/www/demo/protected/controllers/SiteController.php (122)
+in /var/www/demo/index.php (12)
+2014/07/14 17:01:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `post`
+in /var/www/demo/protected/controllers/SiteController.php (122)
+in /var/www/demo/index.php (12)
+2014/07/14 17:01:07 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/controllers/SiteController.php (125)
+in /var/www/demo/index.php (12)
+2014/07/14 17:02:51 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:02:51 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:02:51 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:02:51 [trace] [system.db.ar.CActiveRecord] Post.find()
+in /var/www/demo/protected/controllers/SiteController.php (127)
+in /var/www/demo/index.php (12)
+2014/07/14 17:02:51 [trace] [system.CModule] Loading "db" application component
+in /var/www/demo/protected/controllers/SiteController.php (127)
+in /var/www/demo/index.php (12)
+2014/07/14 17:02:51 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/demo/protected/controllers/SiteController.php (127)
+in /var/www/demo/index.php (12)
+2014/07/14 17:02:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `post`
+in /var/www/demo/protected/controllers/SiteController.php (127)
+in /var/www/demo/index.php (12)
+2014/07/14 17:02:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `post`
+in /var/www/demo/protected/controllers/SiteController.php (127)
+in /var/www/demo/index.php (12)
+2014/07/14 17:02:51 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `post` `t` LIMIT 1
+in /var/www/demo/protected/controllers/SiteController.php (127)
+in /var/www/demo/index.php (12)
+2014/07/14 17:03:55 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:03:55 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:03:55 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:03:55 [trace] [system.db.ar.CActiveRecord] Post.find()
+in /var/www/demo/protected/controllers/SiteController.php (127)
+in /var/www/demo/index.php (12)
+2014/07/14 17:03:55 [trace] [system.CModule] Loading "db" application component
+in /var/www/demo/protected/controllers/SiteController.php (127)
+in /var/www/demo/index.php (12)
+2014/07/14 17:03:55 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/demo/protected/controllers/SiteController.php (127)
+in /var/www/demo/index.php (12)
+2014/07/14 17:03:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `post`
+in /var/www/demo/protected/controllers/SiteController.php (127)
+in /var/www/demo/index.php (12)
+2014/07/14 17:03:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `post`
+in /var/www/demo/protected/controllers/SiteController.php (127)
+in /var/www/demo/index.php (12)
+2014/07/14 17:03:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `post` `t` LIMIT 1
+in /var/www/demo/protected/controllers/SiteController.php (127)
+in /var/www/demo/index.php (12)
+2014/07/14 17:04:27 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:04:27 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:04:27 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:04:27 [trace] [system.db.ar.CActiveRecord] Post.find()
+in /var/www/demo/protected/controllers/SiteController.php (127)
+in /var/www/demo/index.php (12)
+2014/07/14 17:04:27 [trace] [system.CModule] Loading "db" application component
+in /var/www/demo/protected/controllers/SiteController.php (127)
+in /var/www/demo/index.php (12)
+2014/07/14 17:04:27 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/demo/protected/controllers/SiteController.php (127)
+in /var/www/demo/index.php (12)
+2014/07/14 17:04:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `post`
+in /var/www/demo/protected/controllers/SiteController.php (127)
+in /var/www/demo/index.php (12)
+2014/07/14 17:04:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `post`
+in /var/www/demo/protected/controllers/SiteController.php (127)
+in /var/www/demo/index.php (12)
+2014/07/14 17:04:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `post` `t` LIMIT 1
+in /var/www/demo/protected/controllers/SiteController.php (127)
+in /var/www/demo/index.php (12)
+2014/07/14 17:05:32 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:05:32 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:05:32 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:05:32 [trace] [system.db.ar.CActiveRecord] Post.find()
+in /var/www/demo/protected/controllers/SiteController.php (127)
+in /var/www/demo/index.php (12)
+2014/07/14 17:05:32 [trace] [system.CModule] Loading "db" application component
+in /var/www/demo/protected/controllers/SiteController.php (127)
+in /var/www/demo/index.php (12)
+2014/07/14 17:05:32 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/demo/protected/controllers/SiteController.php (127)
+in /var/www/demo/index.php (12)
+2014/07/14 17:05:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `post`
+in /var/www/demo/protected/controllers/SiteController.php (127)
+in /var/www/demo/index.php (12)
+2014/07/14 17:05:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `post`
+in /var/www/demo/protected/controllers/SiteController.php (127)
+in /var/www/demo/index.php (12)
+2014/07/14 17:05:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `post` `t` LIMIT 1
+in /var/www/demo/protected/controllers/SiteController.php (127)
+in /var/www/demo/index.php (12)
+2014/07/14 17:07:21 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:07:21 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:07:21 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:07:21 [trace] [system.db.ar.CActiveRecord] Post.find()
+in /var/www/demo/protected/controllers/SiteController.php (127)
+in /var/www/demo/index.php (12)
+2014/07/14 17:07:21 [trace] [system.CModule] Loading "db" application component
+in /var/www/demo/protected/controllers/SiteController.php (127)
+in /var/www/demo/index.php (12)
+2014/07/14 17:07:21 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/demo/protected/controllers/SiteController.php (127)
+in /var/www/demo/index.php (12)
+2014/07/14 17:07:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `post`
+in /var/www/demo/protected/controllers/SiteController.php (127)
+in /var/www/demo/index.php (12)
+2014/07/14 17:07:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `post`
+in /var/www/demo/protected/controllers/SiteController.php (127)
+in /var/www/demo/index.php (12)
+2014/07/14 17:07:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `post` `t` LIMIT 1
+in /var/www/demo/protected/controllers/SiteController.php (127)
+in /var/www/demo/index.php (12)
+2014/07/14 17:11:21 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:11:21 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:11:21 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:11:21 [trace] [system.db.ar.CActiveRecord] User.find()
+in /var/www/demo/protected/controllers/SiteController.php (127)
+in /var/www/demo/index.php (12)
+2014/07/14 17:11:21 [trace] [system.CModule] Loading "db" application component
+in /var/www/demo/protected/controllers/SiteController.php (127)
+in /var/www/demo/index.php (12)
+2014/07/14 17:11:21 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/demo/protected/controllers/SiteController.php (127)
+in /var/www/demo/index.php (12)
+2014/07/14 17:11:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `user`
+in /var/www/demo/protected/controllers/SiteController.php (127)
+in /var/www/demo/index.php (12)
+2014/07/14 17:11:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in /var/www/demo/protected/controllers/SiteController.php (127)
+in /var/www/demo/index.php (12)
+2014/07/14 17:11:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` LIMIT 1
+in /var/www/demo/protected/controllers/SiteController.php (127)
+in /var/www/demo/index.php (12)
+2014/07/14 17:14:19 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:14:19 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:14:19 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:14:19 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/controllers/SiteController.php (115)
+in /var/www/demo/index.php (12)
+2014/07/14 17:14:19 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/controllers/SiteController.php (115)
+in /var/www/demo/index.php (12)
+2014/07/14 17:14:19 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/components/WebUser.php (13)
+in /var/www/demo/protected/controllers/SiteController.php (115)
+in /var/www/demo/index.php (12)
+2014/07/14 17:14:19 [error] [exception.CException] exception 'CException' with message 'Property "WebUser.email" is not defined.' in /var/www/demo/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/demo/framework/web/auth/CWebUser.php(146): CComponent->__get('email')
+#1 /var/www/demo/protected/components/WebUser.php(13): CWebUser->__get('email')
+#2 /var/www/demo/protected/controllers/SiteController.php(115): WebUser->__get('email')
+#3 /var/www/demo/framework/web/actions/CInlineAction.php(49): SiteController->actionTest()
+#4 /var/www/demo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/demo/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/demo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/demo/framework/web/CWebApplication.php(282): CController->run('test')
+#8 /var/www/demo/framework/web/CWebApplication.php(141): CWebApplication->runController('site/test')
+#9 /var/www/demo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/demo/index.php(12): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=site/test
+---
+2014/07/14 17:14:19 [trace] [system.CModule] Loading "errorHandler" application component
+2014/07/14 17:14:19 [trace] [system.CModule] Loading "themeManager" application component
+2014/07/14 17:15:10 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:10 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:10 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:10 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/controllers/SiteController.php (115)
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:10 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/controllers/SiteController.php (115)
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:10 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/components/WebUser.php (13)
+in /var/www/demo/protected/controllers/SiteController.php (115)
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:10 [error] [exception.CException] exception 'CException' with message 'Property "WebUser.email" is not defined.' in /var/www/demo/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/demo/framework/web/auth/CWebUser.php(146): CComponent->__get('email')
+#1 /var/www/demo/protected/components/WebUser.php(13): CWebUser->__get('email')
+#2 /var/www/demo/protected/controllers/SiteController.php(115): WebUser->__get('email')
+#3 /var/www/demo/framework/web/actions/CInlineAction.php(49): SiteController->actionTest()
+#4 /var/www/demo/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/demo/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/demo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/demo/framework/web/CWebApplication.php(282): CController->run('test')
+#8 /var/www/demo/framework/web/CWebApplication.php(141): CWebApplication->runController('site/test')
+#9 /var/www/demo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/demo/index.php(12): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=site/test
+---
+2014/07/14 17:15:10 [trace] [system.CModule] Loading "errorHandler" application component
+2014/07/14 17:15:10 [trace] [system.CModule] Loading "themeManager" application component
+2014/07/14 17:15:16 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:16 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:16 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:16 [trace] [system.web.filters.CFilterChain] Running filter PostController.filteraccessControl()
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:16 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:16 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:16 [trace] [system.db.ar.CActiveRecord] Post.findByPk()
+in /var/www/demo/protected/controllers/PostController.php (155)
+in /var/www/demo/protected/controllers/PostController.php (55)
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:16 [trace] [system.CModule] Loading "db" application component
+in /var/www/demo/protected/controllers/PostController.php (155)
+in /var/www/demo/protected/controllers/PostController.php (55)
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:16 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/demo/protected/controllers/PostController.php (155)
+in /var/www/demo/protected/controllers/PostController.php (55)
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:16 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `post`
+in /var/www/demo/protected/controllers/PostController.php (155)
+in /var/www/demo/protected/controllers/PostController.php (55)
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:16 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `post`
+in /var/www/demo/protected/controllers/PostController.php (155)
+in /var/www/demo/protected/controllers/PostController.php (55)
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:16 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `post` `t` WHERE `t`.`id`=9 LIMIT 1
+in /var/www/demo/protected/controllers/PostController.php (155)
+in /var/www/demo/protected/controllers/PostController.php (55)
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:16 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/PostController.php (56)
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:16 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/post/view.php (30)
+in /var/www/demo/protected/controllers/PostController.php (56)
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:16 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/post/view.php (30)
+in /var/www/demo/protected/controllers/PostController.php (56)
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:16 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/demo/protected/views/post/view.php (30)
+in /var/www/demo/protected/controllers/PostController.php (56)
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:16 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/views/post/view.php (30)
+in /var/www/demo/protected/controllers/PostController.php (56)
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:16 [trace] [system.CModule] Loading "format" application component
+in /var/www/demo/protected/views/post/view.php (30)
+in /var/www/demo/protected/controllers/PostController.php (56)
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:18 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:18 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:18 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:18 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/controllers/SiteController.php (106)
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:18 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/controllers/SiteController.php (106)
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:18 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:18 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:18 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:18 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (32)
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:18 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (32)
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:18 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (32)
+2014/07/14 17:15:18 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (32)
+2014/07/14 17:15:18 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (32)
+2014/07/14 17:15:18 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (32)
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:20 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:20 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:20 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:20 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (98)
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:20 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/site/login.php (23)
+in /var/www/demo/protected/controllers/SiteController.php (98)
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:20 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/site/login.php (30)
+in /var/www/demo/protected/controllers/SiteController.php (98)
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:20 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/views/site/login.php (52)
+in /var/www/demo/protected/controllers/SiteController.php (98)
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:20 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (98)
+2014/07/14 17:15:20 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (98)
+2014/07/14 17:15:20 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (98)
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:27 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:27 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:27 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:27 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in /var/www/demo/protected/components/UserIdentity.php (26)
+in /var/www/demo/protected/models/LoginForm.php (52)
+in /var/www/demo/protected/controllers/SiteController.php (94)
+2014/07/14 17:15:27 [trace] [system.CModule] Loading "db" application component
+in /var/www/demo/protected/components/UserIdentity.php (26)
+in /var/www/demo/protected/models/LoginForm.php (52)
+in /var/www/demo/protected/controllers/SiteController.php (94)
+2014/07/14 17:15:27 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/demo/protected/components/UserIdentity.php (26)
+in /var/www/demo/protected/models/LoginForm.php (52)
+in /var/www/demo/protected/controllers/SiteController.php (94)
+2014/07/14 17:15:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `user`
+in /var/www/demo/protected/components/UserIdentity.php (26)
+in /var/www/demo/protected/models/LoginForm.php (52)
+in /var/www/demo/protected/controllers/SiteController.php (94)
+2014/07/14 17:15:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `user`
+in /var/www/demo/protected/components/UserIdentity.php (26)
+in /var/www/demo/protected/models/LoginForm.php (52)
+in /var/www/demo/protected/controllers/SiteController.php (94)
+2014/07/14 17:15:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `user` `t` WHERE `t`.`username`=:yp0 LIMIT 1
+in /var/www/demo/protected/components/UserIdentity.php (26)
+in /var/www/demo/protected/models/LoginForm.php (52)
+in /var/www/demo/protected/controllers/SiteController.php (94)
+2014/07/14 17:15:27 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/models/LoginForm.php (71)
+in /var/www/demo/protected/controllers/SiteController.php (94)
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:27 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/models/LoginForm.php (71)
+in /var/www/demo/protected/controllers/SiteController.php (94)
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:27 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:27 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:27 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:27 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (32)
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:27 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (32)
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:27 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (32)
+2014/07/14 17:15:27 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (32)
+2014/07/14 17:15:27 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (32)
+2014/07/14 17:15:27 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (32)
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:28 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:28 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:28 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:28 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/controllers/SiteController.php (115)
+in /var/www/demo/index.php (12)
+2014/07/14 17:15:28 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/controllers/SiteController.php (115)
+in /var/www/demo/index.php (12)
+2014/07/14 17:18:41 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:18:41 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:18:41 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:18:41 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (32)
+in /var/www/demo/index.php (12)
+2014/07/14 17:18:41 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (32)
+in /var/www/demo/index.php (12)
+2014/07/14 17:18:41 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (32)
+2014/07/14 17:18:41 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (32)
+2014/07/14 17:18:41 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (32)
+2014/07/14 17:18:41 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (32)
+in /var/www/demo/index.php (12)
+2014/07/14 17:18:44 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:18:44 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:18:44 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:18:44 [trace] [system.web.filters.CFilterChain] Running filter PostController.filteraccessControl()
+in /var/www/demo/index.php (12)
+2014/07/14 17:18:44 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:18:44 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:18:44 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 17:18:44 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 17:18:44 [trace] [system.db.ar.CActiveRecord] Post.count()
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 17:18:44 [trace] [system.CModule] Loading "db" application component
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 17:18:44 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 17:18:44 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `post`
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 17:18:44 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `post`
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 17:18:44 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `post` `t`
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 17:18:44 [trace] [system.db.ar.CActiveRecord] Post.findAll()
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 17:18:44 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `post` `t` LIMIT 10
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 17:18:44 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 17:18:44 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 17:18:44 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/post/index.php (20)
+in /var/www/demo/protected/controllers/PostController.php (128)
+in /var/www/demo/index.php (12)
+2014/07/14 17:18:47 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:18:47 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:18:47 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:18:47 [trace] [system.web.filters.CFilterChain] Running filter PostController.filteraccessControl()
+in /var/www/demo/index.php (12)
+2014/07/14 17:18:47 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:18:47 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:18:47 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:18:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /var/www/demo/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /var/www/demo/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 /var/www/demo/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /var/www/demo/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /var/www/demo/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /var/www/demo/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /var/www/demo/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/demo/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/demo/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /var/www/demo/framework/web/CWebApplication.php(141): CWebApplication->runController('post/admin')
+#9 /var/www/demo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/demo/index.php(12): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=post/admin
+HTTP_REFERER=http://www.demo.com/index.php?r=post
+---
+2014/07/14 17:18:47 [trace] [system.CModule] Loading "errorHandler" application component
+2014/07/14 17:18:47 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (45)
+2014/07/14 17:18:47 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (45)
+2014/07/14 17:18:47 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (45)
+2014/07/14 17:19:29 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:29 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:29 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:29 [trace] [system.web.filters.CFilterChain] Running filter PostController.filteraccessControl()
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:29 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:29 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:29 [trace] [system.CModule] Loading "db" application component
+in /var/www/demo/protected/controllers/PostController.php (136)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:29 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/demo/protected/controllers/PostController.php (136)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `post`
+in /var/www/demo/protected/controllers/PostController.php (136)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `post`
+in /var/www/demo/protected/controllers/PostController.php (136)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:29 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/PostController.php (143)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:29 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/views/post/admin.php (15)
+in /var/www/demo/protected/controllers/PostController.php (143)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:29 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/post/_search.php (12)
+in /var/www/demo/protected/views/post/admin.php (40)
+in /var/www/demo/protected/controllers/PostController.php (143)
+2014/07/14 17:19:29 [trace] [system.db.ar.CActiveRecord] Post.count()
+in /var/www/demo/protected/views/post/admin.php (57)
+in /var/www/demo/protected/controllers/PostController.php (143)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `post` `t`
+in /var/www/demo/protected/views/post/admin.php (57)
+in /var/www/demo/protected/controllers/PostController.php (143)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:29 [trace] [system.db.ar.CActiveRecord] Post.findAll()
+in /var/www/demo/protected/views/post/admin.php (57)
+in /var/www/demo/protected/controllers/PostController.php (143)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `post` `t` LIMIT 10
+in /var/www/demo/protected/views/post/admin.php (57)
+in /var/www/demo/protected/controllers/PostController.php (143)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:29 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/demo/protected/views/post/admin.php (57)
+in /var/www/demo/protected/controllers/PostController.php (143)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:29 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/post/admin.php (57)
+in /var/www/demo/protected/controllers/PostController.php (143)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:29 [trace] [system.CModule] Loading "format" application component
+in /var/www/demo/protected/views/post/admin.php (57)
+in /var/www/demo/protected/controllers/PostController.php (143)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:33 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:33 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:33 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:33 [trace] [system.web.filters.CFilterChain] Running filter PostController.filteraccessControl()
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:33 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:33 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:33 [trace] [system.CModule] Loading "db" application component
+in /var/www/demo/protected/controllers/PostController.php (136)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:33 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/demo/protected/controllers/PostController.php (136)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `post`
+in /var/www/demo/protected/controllers/PostController.php (136)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `post`
+in /var/www/demo/protected/controllers/PostController.php (136)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:33 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/PostController.php (143)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:33 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/views/post/admin.php (15)
+in /var/www/demo/protected/controllers/PostController.php (143)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:33 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/post/_search.php (12)
+in /var/www/demo/protected/views/post/admin.php (40)
+in /var/www/demo/protected/controllers/PostController.php (143)
+2014/07/14 17:19:33 [trace] [system.db.ar.CActiveRecord] Post.count()
+in /var/www/demo/protected/views/post/admin.php (57)
+in /var/www/demo/protected/controllers/PostController.php (143)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:33 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `post` `t` WHERE content LIKE :ycp0
+in /var/www/demo/protected/views/post/admin.php (57)
+in /var/www/demo/protected/controllers/PostController.php (143)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:33 [trace] [system.db.ar.CActiveRecord] Post.findAll()
+in /var/www/demo/protected/views/post/admin.php (57)
+in /var/www/demo/protected/controllers/PostController.php (143)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:33 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `post` `t` WHERE content LIKE :ycp0 LIMIT 10
+in /var/www/demo/protected/views/post/admin.php (57)
+in /var/www/demo/protected/controllers/PostController.php (143)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:33 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/demo/protected/views/post/admin.php (57)
+in /var/www/demo/protected/controllers/PostController.php (143)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:33 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/post/admin.php (57)
+in /var/www/demo/protected/controllers/PostController.php (143)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:33 [trace] [system.CModule] Loading "format" application component
+in /var/www/demo/protected/views/post/admin.php (57)
+in /var/www/demo/protected/controllers/PostController.php (143)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:36 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:36 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:36 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:36 [trace] [system.web.filters.CFilterChain] Running filter PostController.filteraccessControl()
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:36 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:36 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:36 [trace] [system.CModule] Loading "db" application component
+in /var/www/demo/protected/controllers/PostController.php (136)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:36 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/demo/protected/controllers/PostController.php (136)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:36 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `post`
+in /var/www/demo/protected/controllers/PostController.php (136)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:36 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `post`
+in /var/www/demo/protected/controllers/PostController.php (136)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:36 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/PostController.php (143)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:36 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/views/post/admin.php (15)
+in /var/www/demo/protected/controllers/PostController.php (143)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:36 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/post/_search.php (12)
+in /var/www/demo/protected/views/post/admin.php (40)
+in /var/www/demo/protected/controllers/PostController.php (143)
+2014/07/14 17:19:36 [trace] [system.db.ar.CActiveRecord] Post.count()
+in /var/www/demo/protected/views/post/admin.php (57)
+in /var/www/demo/protected/controllers/PostController.php (143)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:36 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `post` `t`
+in /var/www/demo/protected/views/post/admin.php (57)
+in /var/www/demo/protected/controllers/PostController.php (143)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:36 [trace] [system.db.ar.CActiveRecord] Post.findAll()
+in /var/www/demo/protected/views/post/admin.php (57)
+in /var/www/demo/protected/controllers/PostController.php (143)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:36 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `post` `t` LIMIT 10
+in /var/www/demo/protected/views/post/admin.php (57)
+in /var/www/demo/protected/controllers/PostController.php (143)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:36 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/demo/protected/views/post/admin.php (57)
+in /var/www/demo/protected/controllers/PostController.php (143)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:36 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/post/admin.php (57)
+in /var/www/demo/protected/controllers/PostController.php (143)
+in /var/www/demo/index.php (12)
+2014/07/14 17:19:36 [trace] [system.CModule] Loading "format" application component
+in /var/www/demo/protected/views/post/admin.php (57)
+in /var/www/demo/protected/controllers/PostController.php (143)
+in /var/www/demo/index.php (12)
+2014/07/14 18:15:52 [trace] [system.CModule] Loading "log" application component
+in /var/www/demo/index.php (12)
+2014/07/14 18:15:52 [trace] [system.CModule] Loading "request" application component
+in /var/www/demo/index.php (12)
+2014/07/14 18:15:52 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/demo/index.php (12)
+2014/07/14 18:15:52 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/demo/protected/controllers/SiteController.php (32)
+in /var/www/demo/index.php (12)
+2014/07/14 18:15:52 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/demo/protected/views/layouts/column1.php (2)
+in /var/www/demo/protected/controllers/SiteController.php (32)
+in /var/www/demo/index.php (12)
+2014/07/14 18:15:52 [trace] [system.CModule] Loading "user" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (32)
+2014/07/14 18:15:52 [trace] [system.CModule] Loading "session" application component
+in /var/www/demo/protected/views/layouts/main.php (36)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (32)
+2014/07/14 18:15:52 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/demo/protected/views/layouts/main.php (54)
+in /var/www/demo/protected/views/layouts/column1.php (6)
+in /var/www/demo/protected/controllers/SiteController.php (32)
+2014/07/14 18:15:52 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/demo/protected/controllers/SiteController.php (32)
+in /var/www/demo/index.php (12)
