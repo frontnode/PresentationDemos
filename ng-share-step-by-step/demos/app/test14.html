@@ -1,0 +1,29 @@
+<!do ctype html>
+<html ng-app="myApp">
+    <head>
+        <link rel="stylesheet"
+              href="bower_components/bootstrap/dist/css/bootstrap.css" />
+        <script src="bower_components/angular/angular.js"></script>
+    </head>
+    <body >
+        <div ng-app="myApp"
+             ng-init="someProperty = 'some data'"></div>
+        <div ng-init="siblingProperty = 'more data'">
+            Inside Div Two: {{ aThirdProperty }}
+            <div ng-init="aThirdProperty = 'data for 3rd property'"
+                 ng-controller="SomeCtrl">
+                Inside Div Three: {{ aThirdProperty }}
+                <div ng-controller="SecondCtrl">
+                    Inside Div Four: {{ aThirdProperty }}
+                    <br>
+                    Outside myDirective: {{ myProperty }}
+                    <div my-directive ng-init="myProperty = 'wow, this is cool'">
+                        Inside myDirective: {{ myProperty }}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="scripts/test14/app1.js"></script>
+    </body>
+</html>

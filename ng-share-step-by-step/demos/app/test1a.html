@@ -1,0 +1,25 @@
+<!doctype html>
+<html ng-app>
+  <head>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <script src="bower_components/angular/angular.js"></script>
+  </head>
+  <body>
+    <div ng-controller="MyController">
+      <h1>Hello {{ clock }}!</h1>
+    </div>
+    <script type="text/javascript">
+      function MyController($scope) {
+        $scope.clock = new Date();
+        var updateClock = function() {
+          $scope.clock = new Date();
+        };
+        setInterval(function() {
+          console.log("helloo");
+          updateClock();
+        }, 1000);
+        updateClock();
+      };
+    </script>
+  </body>
+</html>

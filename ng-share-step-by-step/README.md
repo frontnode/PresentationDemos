@@ -15,3 +15,10 @@
 - 用`directive`来创建新的标签或属性。
 
 本资源以`step-by-step`迭代的方式进行更新，由于个人水平有限，难免有偏颇、遗漏之处，希望大家能提交`issue`进行指点。
+
+
+# 参考资料
+
+[Mastering Web Application Development with AngularJS](https://www.packtpub.com/angularjs-web-application-development/book)
+
+[AngularJS directives](http://www.packtpub.com/angularjs-directives/book)
