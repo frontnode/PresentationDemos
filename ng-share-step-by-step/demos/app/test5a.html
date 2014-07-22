@@ -1,0 +1,19 @@
+<!doctype html>
+<html ng-app="myApp">
+    <head>
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+        <script src="bower_components/angular/angular.js"></script>    
+    </head>
+    <body ng-controller="MyController">
+        <div id="emailEditor">
+            <input ng-model="to"
+                   type="email"
+                   placeholder="Recipient" />
+            <textarea ng-model="emailBody"></textarea>
+        </div>
+        <div id="emailPreview">
+            <pre>__ previewText __</pre>
+        </div>        
+        <script src="scripts/test5/app2.js"></script>        
+    </body>
+</html>

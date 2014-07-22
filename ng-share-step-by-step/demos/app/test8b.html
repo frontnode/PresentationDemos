@@ -1,0 +1,20 @@
+<!do ctype html>
+
+<html ng-app="myApp">
+    <head>
+        <link rel="stylesheet"
+        href="bower_components/bootstrap/dist/css/bootstrap.css" />
+        <script src="bower_components/angular/angular.js"></script>
+    </head>
+    <body>
+        <div ng-controller="SomeController">
+            {{ someModel.someValue }}
+            <button ng-click="someAction()">Communicate to child</button>
+            <div ng-controller="ChildController">
+                {{ someModel.someValue }}
+                <button ng-click="childAction()">Communicate to parent</button>
+            </div>
+        </div>
+        <script src="scripts/test8/app2.js"></script>
+    </body>
+</html>

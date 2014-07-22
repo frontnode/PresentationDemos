@@ -1,0 +1,22 @@
+<!doctype html>
+<html ng-app="myApp">
+  <head>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <script src="bower_components/angular/angular.js"></script>    
+  </head>
+  <body>
+      <div ng-controller="ParentController">
+          <div ng-controller="ChildController">
+              <a ng-click="sayHello()">Say hello</a>
+          </div>
+          {{ person }}
+      </div>
+<!--
+  <script src="scripts/test3/app2.js"></script>    
+-->    
+    <script src="scripts/test3/app2.js"></script>
+
+  
+  
+  </body>
+</html>
