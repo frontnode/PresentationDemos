@@ -1,0 +1,61 @@
+/*Variable*/
+
+@nice-blue: #5B83AD;
+@light-blue: @nice-blue + #111;
+
+.header { color: @light-blue; }
+
+@box-width: 100px;
+@box-height: 100px;
+
+.box {
+    width: @box-width;
+    height: @box-height;
+    background: @nice-blue;
+    margin-bottom: 10px;
+}
+
+
+/*Mixin*/
+.border-radius (@radius: 5px) {
+  border-radius: @radius;
+  -moz-border-radius: @radius;
+  -webkit-border-radius: @radius;
+}
+
+.border-radius (@radius, @times) {
+  border-radius: @radius * @times;
+  -moz-border-radius: @radius * @times;
+  -webkit-border-radius: @radius * @times;
+}
+
+.radius-border {
+  .border-radius();//5px, 10
+}
+
+.circle {
+  .border-radius(percentage(.5));//inner function
+}
+
+.bordered (@color: #ccc) {
+    border: 1px solid @color;
+}
+
+/*Nested (Namespace)*/
+.card {
+    overflow: hidden;
+    padding: 10px;
+    .bordered();
+    width: @box-width * 3;
+    .logo {
+        float: left;
+        width: @box-width;
+        .bordered();
+        border-right: none;
+        border-bottom: none;
+    }
+    .desc {
+        margin: 0;
+        .bordered();
+    }
+}
